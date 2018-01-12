@@ -1,0 +1,71 @@
+  
+@font-face{  
+font-family:"Times New Roman";  
+}  
+  
+@font-face{  
+font-family:"宋体";  
+}  
+  
+@font-face{  
+font-family:"Calibri";  
+}  
+  
+p.MsoNormal{  
+mso-style-name:正文;  
+mso-style-parent:"";  
+margin:0pt;  
+margin-bottom:.0001pt;  
+mso-pagination:none;  
+text-align:justify;  
+text-justify:inter-ideograph;  
+font-family:Calibri;  
+mso-fareast-font-family:宋体;  
+mso-bidi-font-family:'Times New Roman';  
+font-size:10.5000pt;  
+mso-font-kerning:1.0000pt;  
+}  
+  
+span.msoIns{  
+mso-style-type:export-only;  
+mso-style-name:"";  
+text-decoration:underline;  
+text-underline:single;  
+color:blue;  
+}  
+  
+span.msoDel{  
+mso-style-type:export-only;  
+mso-style-name:"";  
+text-decoration:line-through;  
+color:red;  
+}  
+@page{mso-page-border-surround-header:no;  
+	mso-page-border-surround-footer:no;}@page Section0{  
+margin-top:70.8500pt;  
+margin-bottom:56.7000pt;  
+margin-left:70.8500pt;  
+margin-right:56.7000pt;  
+size:595.3000pt 841.9000pt;  
+layout-grid:15.6000pt;  
+}  
+div.Section0{page:Section0;}
+
+**Blockly个人课程报告**
+
+
+
+以计算机为技术为先驱的科技革命深刻的影响着人们的生产生活方式以及思维方式，推动着人类社会的蓬勃发展。随着智能时代的到来，我们自己也应掌握一些普遍的编程技能。
+
+普通编程需要具备一定的C语言基础，但随着技术的不断发展，编程过程和编程方法也变得简单有效.Blockly的使用并不需要考虑繁杂的代码和语言规则等，因此即使是向我们这种从来没有接触过编程的人也可以较轻松地学懂运用逻辑拼接来实现简单的编程工作。
+
+Blockly将编程进行可视化处理，可以根据自己的需求拖动不同的“图形块”来进行编程。虽然Blockly将编程的工序大大简化，但是我们依旧需要掌握一些基础的计算机知识。首先是计算机中数据的表示形式。二进制代码是最为常见的，也是电脑系统本身的原始代码，也就是说计算机只认识0和1。但是二进制数不直观，若采用二进制数进行工作，工作量也会增大很多，因此一般采用十进制或十六进制进行数值数据的输出，再由电脑系统自身进行二进制数的转换。在Blockly中提供了数据输入模块，其默认了一定的储存长度，默认数值为0，在允许输入数字的模块中可以输入任何数字但不允许输入字符，当输入不正确的符号时，程序自身也会对输入数字类型的合法性进行检查。不同的是在字符输入模块中，可以输入任何形式的字符和数字，只要不超出特定的长度都是合法的，字符串也是如此，但在程序运行过程中，如果数据输入错误或数据超过程序可表示的范围，数据将产生错误。除了给定数值的常量，我们也可以通过Blockly自己命名变量，使程序更简化。除了简单的数字或字符，Blockly中还存在着运算符表达式，通过基础运算，关系运算，逻辑运算和赋值运算来进行简单的运算。
+
+正如我们的小车迷宫算法,Blockly通过对不同代码块的拼接构建出一个程序以达到对小车的控制。包括数据间的逻辑关系，循环控制，数学运算模块，文本块，，列表块等。除此之外通过对赋值语句的应用可以很好的达到循环的效果。学习了单个模块的不同用法后，接下来便是相对复杂的实际运用了。例如数值大小的比较，三杯水的次序交换等。其中选择结构的应用在实际生活中最为广泛，如注册登陆界面等。
+
+但这些都是建立在Blockly原有模块的基础上，当我们需要新模块，而其本身又没有时，此时Blockly开发工具便发挥了其本身的优势。这也是Blockly的灵活和强大之处。在自定义新块时，可以对原有块进行修改，也可以自己重新定义一个新块。自定义新块分为两步，首先创建一个块，指定其形状，字段和连接点。其次便是创建生成器代码以将新块导出为编程语言。成功导出后将会在工作区看到新块并进行运用。
+
+除了这些简单的应用以外，Blockly还可以作为代码生成器，在Blockly中进行编写，选择Python，复制代码到Python环境中，便可以直接运行。随着Blockly的逐渐完善，它被越来越多的人所熟知，同时又由于其本身可视化编程和良好的可扩展性等特点，很多开发者利用Blockly进行二次开发，因此衍生出许多的优秀工具。
+
+在Blockly的学习中并不能做到二次开发这样的高级使用，但是它却给了像我一样没有编程基础的人一个机会，一个去接触，去了解计算机世界的机会，并在这个世界中学习它最基本的道路，了解到计算机所带来的便利以及生活的飞速发展。在小车的迷宫挑战中，在整个团队的努力中，利用块的拖动，在不断地调试与尝试下，成功的用两种程序完成第一种赛道，并写出了第二种赛道的程序。一种尝试，一种喜悦；一次努力，一次终身的收获。
+
