@@ -1,3 +1,6 @@
+  
+
+
 **Blockly的实际应用**
 
 
@@ -10,581 +13,620 @@
 
 注：因为此程序中的初始赋值为1，所以将通项改为（-1\)^x·\[1/\(2x+10\]。
 
+**XML代码：&lt;xml xmlns="http://www.w3.org/1999/xhtml"&gt;**
 
+  &lt;variables&gt;
 
+    &lt;variable id="ebV92L\#%auU\)JspR{3\[9" type=""&gt;x&lt;/variable&gt;
 
+    &lt;variable id="}fGdqrSohSlCbR.b$P1F" type=""&gt;y&lt;/variable&gt;
 
-![](file:///C:\Users\苬樱\AppData\Local\Temp\ksohtml\wpsA922.tmp.jpg)
+  &lt;/variables&gt;
 
+  &lt;block id="{@-\]qI\*vKQmn7A@Dz$;i" type="variables\_set" x="-87" y="-38"&gt;
 
+    &lt;field id="ebV92L\#%auU\)JspR{3\[9" name="VAR" variableType=""&gt;x&lt;/field&gt;
 
-&lt;xml xmlns="http://www.w3.org/1999/xhtml"&gt;
+    &lt;value name="VALUE"&gt;
 
-&lt;variables&gt;
+      &lt;block id="-@YEGLWt2.iat\|Tp.1Zv" type="math\_number"&gt;
 
-&lt;variable id="tS+4~/CLZhvc-\_fBQRD{" type=""&gt;x&lt;/variable&gt;
+        &lt;field name="NUM"&gt;1&lt;/field&gt;
 
-&lt;variable id="lVq:bzW\`S9hABBOzwEf3" type=""&gt;y&lt;/variable&gt;
+      &lt;/block&gt;
 
-&lt;/variables&gt;
+    &lt;/value&gt;
 
-&lt;block id="J%65\*y;6Bb}\]O4O8mH\#l" type="variables\_set" x="38" y="13"&gt;
+    &lt;next&gt;
 
-&lt;field id="tS+4~/CLZhvc-\_fBQRD{" name="VAR" variableType=""&gt;x&lt;/field&gt;
+      &lt;block id="K\`2P!I\|nfC\#MWg\`zf-AM" type="variables\_set"&gt;
 
-&lt;value name="VALUE"&gt;
+        &lt;field id="}fGdqrSohSlCbR.b$P1F" name="VAR" variableType=""&gt;y&lt;/field&gt;
 
-&lt;block id="BHb1fSbj;8H%0{nT-2na" type="math\_number"&gt;
+        &lt;value name="VALUE"&gt;
 
-&lt;field name="NUM"&gt;1&lt;/field&gt;
+          &lt;block id="fQ?{.5eAR{:nPZU\]s=SJ" type="math\_number"&gt;
 
-&lt;/block&gt;
+            &lt;field name="NUM"&gt;1&lt;/field&gt;
 
-&lt;/value&gt;
+          &lt;/block&gt;
 
-&lt;next&gt;
+        &lt;/value&gt;
 
-&lt;block id="4?1Ep4=faO\|620i9z1/\(" type="variables\_set"&gt;
+        &lt;next&gt;
 
-&lt;field id="lVq:bzW\`S9hABBOzwEf3" name="VAR" variableType=""&gt;y&lt;/field&gt;
+          &lt;block id="o\#dlXpbL\#:argV8VsG3\|" type="controls\_if"&gt;
 
-&lt;value name="VALUE"&gt;
+            &lt;mutation else="1" /&gt;
 
-&lt;block id=",x?R.X?}Se=VM6=24c?+" type="math\_number"&gt;
+            &lt;value name="IF0"&gt;
 
-&lt;field name="NUM"&gt;1&lt;/field&gt;
+              &lt;block id="Zxr}\(=H\`\*KpSW~q\(gaEI" type="logic\_compare"&gt;
 
-&lt;/block&gt;
+                &lt;field name="OP"&gt;LT&lt;/field&gt;
 
-&lt;/value&gt;
+                &lt;value name="A"&gt;
 
-&lt;next&gt;
+                  &lt;block id="5UjH\#9bf4t3w$%\|xQ\`=c" type="math\_arithmetic"&gt;
 
-&lt;block id="KN,861vSxO51tNyu\(MPn" type="controls\_if"&gt;
+                    &lt;field name="OP"&gt;POWER&lt;/field&gt;
 
-&lt;mutation else="1" /&gt;
+                    &lt;value name="A"&gt;
 
-&lt;value name="IF0"&gt;
+                      &lt;shadow id="$3:\[N1=\[E=YYm1QgP{DI" type="math\_number"&gt;
 
-&lt;block id="qVg$Cc!%}5fs^S\[Ym6JW" type="logic\_compare"&gt;
+                        &lt;field name="NUM"&gt;1&lt;/field&gt;
 
-&lt;field name="OP"&gt;LT&lt;/field&gt;
+                      &lt;/shadow&gt;
 
-&lt;value name="A"&gt;
+                      &lt;block id="--LzQ;Xg8K/xFVdv-^rO" type="variables\_get"&gt;
 
-&lt;block id="\`iY.\_AjXCG?F4Su$hvVg" type="math\_arithmetic"&gt;
+                        &lt;field id="}fGdqrSohSlCbR.b$P1F" name="VAR" variableType=""&gt;y&lt;/field&gt;
 
-&lt;field name="OP"&gt;MINUS&lt;/field&gt;
+                      &lt;/block&gt;
 
-&lt;value name="A"&gt;
+                    &lt;/value&gt;
 
-&lt;shadow id="1rIKG++3LL3O=/w6cWno" type="math\_number"&gt;
+                    &lt;value name="B"&gt;
 
-&lt;field name="NUM"&gt;1&lt;/field&gt;
+                      &lt;shadow id="\(\|;FPVvqcwanzdk\|GCO;" type="math\_number"&gt;
 
-&lt;/shadow&gt;
+                        &lt;field name="NUM"&gt;1&lt;/field&gt;
 
-&lt;block id="Ur~9pYbJ\(YEfK1/2P2t;" type="variables\_get"&gt;
+                      &lt;/shadow&gt;
 
-&lt;field id="lVq:bzW\`S9hABBOzwEf3" name="VAR" variableType=""&gt;y&lt;/field&gt;
+                      &lt;block id="f-tU^\_\|x\]e1\]!9;\)PST8" type="math\_arithmetic"&gt;
 
-&lt;/block&gt;
+                        &lt;field name="OP"&gt;DIVIDE&lt;/field&gt;
 
-&lt;/value&gt;
+                        &lt;value name="A"&gt;
 
-&lt;value name="B"&gt;
+                          &lt;shadow id="bqSvO\`N\|E\*hq7{Cp~Iqo" type="math\_number"&gt;
 
-&lt;shadow id=";ySo-~gDX\#E\*}Cd:53YN" type="math\_number"&gt;
+                            &lt;field name="NUM"&gt;1&lt;/field&gt;
 
-&lt;field name="NUM"&gt;1&lt;/field&gt;
+                          &lt;/shadow&gt;
 
-&lt;/shadow&gt;
+                          &lt;block id="qL{9aG/;vZN;S\#Ap0\#ES" type="math\_constant"&gt;
 
-&lt;block id="nq\*pf\(RYw8\(ogHhR,R=j" type="math\_arithmetic"&gt;
+                            &lt;field name="CONSTANT"&gt;PI&lt;/field&gt;
 
-&lt;field name="OP"&gt;DIVIDE&lt;/field&gt;
+                          &lt;/block&gt;
 
-&lt;value name="A"&gt;
+                        &lt;/value&gt;
 
-&lt;shadow id="~a+I\`\#$MSj\]dxGXX::~\|" type="math\_number"&gt;
+                        &lt;value name="B"&gt;
 
-&lt;field name="NUM"&gt;1&lt;/field&gt;
+                          &lt;shadow id="UMjBcPa6,\]Y2\*YGuX\[%{" type="math\_number"&gt;
 
-&lt;/shadow&gt;
+                            &lt;field name="NUM"&gt;1&lt;/field&gt;
 
-&lt;block id="0O%WbGVUM\`HM~f;?.,Fe" type="math\_constant"&gt;
+                          &lt;/shadow&gt;
 
-&lt;field name="CONSTANT"&gt;PI&lt;/field&gt;
+                          &lt;block id="9W\[FP\*,9/\`5\|gF\)cDgP!" type="math\_number"&gt;
 
-&lt;/block&gt;
+                            &lt;field name="NUM"&gt;4&lt;/field&gt;
 
-&lt;/value&gt;
+                          &lt;/block&gt;
 
-&lt;value name="B"&gt;
+                        &lt;/value&gt;
 
-&lt;shadow id="WmQ/LT6P\#\[C4.%pwxN/l" type="math\_number"&gt;
+                      &lt;/block&gt;
 
-&lt;field name="NUM"&gt;1&lt;/field&gt;
+                    &lt;/value&gt;
 
-&lt;/shadow&gt;
+                  &lt;/block&gt;
 
-&lt;block id="}2$\|%Ayaqsv/yt\`^Pz!N" type="math\_number"&gt;
+                &lt;/value&gt;
 
-&lt;field name="NUM"&gt;4&lt;/field&gt;
+                &lt;value name="B"&gt;
 
-&lt;/block&gt;
+                  &lt;block id="L^hQoLujWh.-\*Z,U\]\[kZ" type="math\_number"&gt;
 
-&lt;/value&gt;
+                    &lt;field name="NUM"&gt;0.12&lt;/field&gt;
 
-&lt;/block&gt;
+                  &lt;/block&gt;
 
-&lt;/value&gt;
+                &lt;/value&gt;
 
-&lt;/block&gt;
+              &lt;/block&gt;
 
-&lt;/value&gt;
+            &lt;/value&gt;
 
-&lt;value name="B"&gt;
+            &lt;statement name="DO0"&gt;
 
-&lt;block id=".w^{6e5p;:X:WMUh7:\`W" type="math\_number"&gt;
+              &lt;block id="7~xo^PoqR0Ach\*8Wm2@b" type="text\_print"&gt;
 
-&lt;field name="NUM"&gt;0.12&lt;/field&gt;
+                &lt;value name="TEXT"&gt;
 
-&lt;/block&gt;
+                  &lt;shadow id="{FMJAmDB\(q\*+qD8,8Vo:" type="text"&gt;
 
-&lt;/value&gt;
+                    &lt;field name="TEXT"&gt;abc&lt;/field&gt;
 
-&lt;/block&gt;
+                  &lt;/shadow&gt;
 
-&lt;/value&gt;
+                  &lt;block id="nv{T7@tF,\`2IH/dY=:h/" type="variables\_get"&gt;
 
-&lt;statement name="DO0"&gt;
+                    &lt;field id="}fGdqrSohSlCbR.b$P1F" name="VAR" variableType=""&gt;y&lt;/field&gt;
 
-&lt;block id="zCAobhGj5EbAV\|\|P7,hX" type="text\_print"&gt;
+                  &lt;/block&gt;
 
-&lt;value name="TEXT"&gt;
+                &lt;/value&gt;
 
-&lt;shadow id="j}hXXk1cWb1AHBmV=m~s" type="text"&gt;
+              &lt;/block&gt;
 
-&lt;field name="TEXT"&gt;abc&lt;/field&gt;
+            &lt;/statement&gt;
 
-&lt;/shadow&gt;
+            &lt;statement name="ELSE"&gt;
 
-&lt;block id="$SI\(oq?ukN~Q?6JvlUl{" type="variables\_get"&gt;
+              &lt;block id="ved\_-!uG7cPDpM,oKL\)M" type="controls\_whileUntil"&gt;
 
-&lt;field id="lVq:bzW\`S9hABBOzwEf3" name="VAR" variableType=""&gt;y&lt;/field&gt;
+                &lt;field name="MODE"&gt;UNTIL&lt;/field&gt;
 
-&lt;/block&gt;
+                &lt;value name="BOOL"&gt;
 
-&lt;/value&gt;
+                  &lt;block id="e;1CgVq~\|C46tv~JI\*Sg" type="logic\_compare"&gt;
 
-&lt;/block&gt;
+                    &lt;field name="OP"&gt;LT&lt;/field&gt;
 
-&lt;/statement&gt;
+                    &lt;value name="A"&gt;
 
-&lt;statement name="ELSE"&gt;
+                      &lt;block id="9RQXia4v$Vd=\)i@:nF%\(" type="math\_arithmetic"&gt;
 
-&lt;block id="X=Nb:R/Cfh-FF49bk52T" type="controls\_whileUntil"&gt;
+                        &lt;field name="OP"&gt;MINUS&lt;/field&gt;
 
-&lt;field name="MODE"&gt;UNTIL&lt;/field&gt;
+                        &lt;value name="A"&gt;
 
-&lt;value name="BOOL"&gt;
+                          &lt;shadow id="@@\[-\*B00%mlP:\*J\]c@nS" type="math\_number"&gt;
 
-&lt;block id="\`o:cF2\#=fm^5AI,^iA\*T" type="logic\_compare"&gt;
+                            &lt;field name="NUM"&gt;1&lt;/field&gt;
 
-&lt;field name="OP"&gt;LT&lt;/field&gt;
+                          &lt;/shadow&gt;
 
-&lt;value name="A"&gt;
+                          &lt;block id="IK\[U02{s^8dMa4N\|hsu3" type="variables\_get"&gt;
 
-&lt;block id="MH\]Jna:\(f\*BB0DhSE@eL" type="math\_arithmetic"&gt;
+                            &lt;field id="}fGdqrSohSlCbR.b$P1F" name="VAR" variableType=""&gt;y&lt;/field&gt;
 
-&lt;field name="OP"&gt;MINUS&lt;/field&gt;
+                          &lt;/block&gt;
 
-&lt;value name="A"&gt;
+                        &lt;/value&gt;
 
-&lt;shadow id="1rIKG++3LL3O=/w6cWno" type="math\_number"&gt;
+                        &lt;value name="B"&gt;
 
-&lt;field name="NUM"&gt;1&lt;/field&gt;
+                          &lt;shadow id="\*\]pIQyl:p4,PM:Sye\]bL" type="math\_number"&gt;
 
-&lt;/shadow&gt;
+                            &lt;field name="NUM"&gt;1&lt;/field&gt;
 
-&lt;block id="t^fO\|d5L!y\)iu\(!OIWeb" type="variables\_get"&gt;
+                          &lt;/shadow&gt;
 
-&lt;field id="lVq:bzW\`S9hABBOzwEf3" name="VAR" variableType=""&gt;y&lt;/field&gt;
+                          &lt;block id="\|P8.UCoO$\`Qh!T\]I,Kp\`" type="math\_arithmetic"&gt;
 
-&lt;/block&gt;
+                            &lt;field name="OP"&gt;DIVIDE&lt;/field&gt;
 
-&lt;/value&gt;
+                            &lt;value name="A"&gt;
 
-&lt;value name="B"&gt;
+                              &lt;shadow id="WKxWQQb/L/\`Ecm+4P9l1" type="math\_number"&gt;
 
-&lt;shadow id=";ySo-~gDX\#E\*}Cd:53YN" type="math\_number"&gt;
+                                &lt;field name="NUM"&gt;1&lt;/field&gt;
 
-&lt;field name="NUM"&gt;1&lt;/field&gt;
+                              &lt;/shadow&gt;
 
-&lt;/shadow&gt;
+                              &lt;block id="}mzm}tBYB28X/t;%.W.." type="math\_constant"&gt;
 
-&lt;block id="B8Z}jtjYLLW;Lvq\#:L\#3" type="math\_arithmetic"&gt;
+                                &lt;field name="CONSTANT"&gt;PI&lt;/field&gt;
 
-&lt;field name="OP"&gt;DIVIDE&lt;/field&gt;
+                              &lt;/block&gt;
 
-&lt;value name="A"&gt;
+                            &lt;/value&gt;
 
-&lt;shadow id="~a+I\`\#$MSj\]dxGXX::~\|" type="math\_number"&gt;
+                            &lt;value name="B"&gt;
 
-&lt;field name="NUM"&gt;1&lt;/field&gt;
+                              &lt;shadow id="\]\(q6c\_S.O5x2\]\]v{\`E\*Q" type="math\_number"&gt;
 
-&lt;/shadow&gt;
+                                &lt;field name="NUM"&gt;1&lt;/field&gt;
 
-&lt;block id="\`^\)\#kbck+IywG7B\#{xiO" type="math\_constant"&gt;
+                              &lt;/shadow&gt;
 
-&lt;field name="CONSTANT"&gt;PI&lt;/field&gt;
+                              &lt;block id="4e;a-a9v\|x^\)O5~D6\#F0" type="math\_number"&gt;
 
-&lt;/block&gt;
+                                &lt;field name="NUM"&gt;4&lt;/field&gt;
 
-&lt;/value&gt;
+                              &lt;/block&gt;
 
-&lt;value name="B"&gt;
+                            &lt;/value&gt;
 
-&lt;shadow id="WmQ/LT6P\#\[C4.%pwxN/l" type="math\_number"&gt;
+                          &lt;/block&gt;
 
-&lt;field name="NUM"&gt;1&lt;/field&gt;
+                        &lt;/value&gt;
 
-&lt;/shadow&gt;
+                      &lt;/block&gt;
 
-&lt;block id="\[EKKQ\)X\(0AVvUWq.gGt\|" type="math\_number"&gt;
+                    &lt;/value&gt;
 
-&lt;field name="NUM"&gt;4&lt;/field&gt;
+                    &lt;value name="B"&gt;
 
-&lt;/block&gt;
+                      &lt;block id="O.iLXu9qyI?/eg\*JJYbN" type="math\_number"&gt;
 
-&lt;/value&gt;
+                        &lt;field name="NUM"&gt;0.12&lt;/field&gt;
 
-&lt;/block&gt;
+                      &lt;/block&gt;
 
-&lt;/value&gt;
+                    &lt;/value&gt;
 
-&lt;/block&gt;
+                  &lt;/block&gt;
 
-&lt;/value&gt;
+                &lt;/value&gt;
 
-&lt;value name="B"&gt;
+                &lt;statement name="DO"&gt;
 
-&lt;block id="wf.hO7YUY0?U-C~%W3Yp" type="math\_number"&gt;
+                  &lt;block id=";\[PYcuyd/mXT$HuyY\|\*S" type="variables\_set"&gt;
 
-&lt;field name="NUM"&gt;0.12&lt;/field&gt;
+                    &lt;field id="}fGdqrSohSlCbR.b$P1F" name="VAR" variableType=""&gt;y&lt;/field&gt;
 
-&lt;/block&gt;
+                    &lt;value name="VALUE"&gt;
 
-&lt;/value&gt;
+                      &lt;block id="v2YqxEb;UyYOZULRrY\*d" type="math\_arithmetic"&gt;
 
-&lt;/block&gt;
+                        &lt;field name="OP"&gt;ADD&lt;/field&gt;
 
-&lt;/value&gt;
+                        &lt;value name="A"&gt;
 
-&lt;statement name="DO"&gt;
+                          &lt;shadow id="NZk2$?\)ueE}s5t\)}A6gl" type="math\_number"&gt;
 
-&lt;block id="\(\#9gV$F{l\_I3,GNJifrR" type="variables\_set"&gt;
+                            &lt;field name="NUM"&gt;1&lt;/field&gt;
 
-&lt;field id="lVq:bzW\`S9hABBOzwEf3" name="VAR" variableType=""&gt;y&lt;/field&gt;
+                          &lt;/shadow&gt;
 
-&lt;value name="VALUE"&gt;
+                          &lt;block id="yeuaXRuSNI.v3AgdD\`O\[" type="variables\_get"&gt;
 
-&lt;block id="%\[2qDj7}\|v4Otk6xO~S}" type="math\_arithmetic"&gt;
+                            &lt;field id="}fGdqrSohSlCbR.b$P1F" name="VAR" variableType=""&gt;y&lt;/field&gt;
 
-&lt;field name="OP"&gt;ADD&lt;/field&gt;
+                          &lt;/block&gt;
 
-&lt;value name="A"&gt;
+                        &lt;/value&gt;
 
-&lt;shadow id="O\)DKIxDRt1\|.c}{}-Yy\)" type="math\_number"&gt;
+                        &lt;value name="B"&gt;
 
-&lt;field name="NUM"&gt;1&lt;/field&gt;
+                          &lt;shadow id="@zGdsvAnQa\*d}.qjY\*w\)" type="math\_number"&gt;
 
-&lt;/shadow&gt;
+                            &lt;field name="NUM"&gt;1&lt;/field&gt;
 
-&lt;block id="R?4;GuwRD~\({VDbNK\`JX" type="variables\_get"&gt;
+                          &lt;/shadow&gt;
 
-&lt;field id="lVq:bzW\`S9hABBOzwEf3" name="VAR" variableType=""&gt;y&lt;/field&gt;
+                          &lt;block id="t\]qXaWV{/s6qhTaOu$-\_" type="math\_arithmetic"&gt;
 
-&lt;/block&gt;
+                            &lt;field name="OP"&gt;MULTIPLY&lt;/field&gt;
 
-&lt;/value&gt;
+                            &lt;value name="A"&gt;
 
-&lt;value name="B"&gt;
+                              &lt;shadow id="}ZocQC2O\_2RtKAy\`Xz!d" type="math\_number"&gt;
 
-&lt;shadow id="Rk3VDg2o!.\)W\#Wa}0~H," type="math\_number"&gt;
+                                &lt;field name="NUM"&gt;1&lt;/field&gt;
 
-&lt;field name="NUM"&gt;1&lt;/field&gt;
+                              &lt;/shadow&gt;
 
-&lt;/shadow&gt;
+                              &lt;block id="8pNVkq\|k\(l,l\_5S88Hy2" type="math\_arithmetic"&gt;
 
-&lt;block id="ikglWrf6bQ\*wlOz\|dH%a" type="math\_arithmetic"&gt;
+                                &lt;field name="OP"&gt;POWER&lt;/field&gt;
 
-&lt;field name="OP"&gt;MULTIPLY&lt;/field&gt;
+                                &lt;value name="A"&gt;
 
-&lt;value name="A"&gt;
+                                  &lt;shadow id="%9bDe74,a,L\)k4se6\`3q" type="math\_number"&gt;
 
-&lt;shadow id="4fptD\*J8,YQFAnce\[Y\`\(" type="math\_number"&gt;
+                                    &lt;field name="NUM"&gt;1&lt;/field&gt;
 
-&lt;field name="NUM"&gt;1&lt;/field&gt;
+                                  &lt;/shadow&gt;
 
-&lt;/shadow&gt;
+                                  &lt;block id="1%q~156\*kR3oO6BtvZ\[\]" type="math\_number"&gt;
 
-&lt;block id="?;n1}?3M6$\#q!^Y\]l\)I^" type="math\_arithmetic"&gt;
+                                    &lt;field name="NUM"&gt;-1&lt;/field&gt;
 
-&lt;field name="OP"&gt;POWER&lt;/field&gt;
+                                  &lt;/block&gt;
 
-&lt;value name="A"&gt;
+                                &lt;/value&gt;
 
-&lt;shadow id="B9W\_FG27{48NKW\#w:c/\`" type="math\_number"&gt;
+                                &lt;value name="B"&gt;
 
-&lt;field name="NUM"&gt;1&lt;/field&gt;
+                                  &lt;shadow id="u\#\#P{SnhZt5\#x{Mx1kOo" type="math\_number"&gt;
 
-&lt;/shadow&gt;
+                                    &lt;field name="NUM"&gt;1&lt;/field&gt;
 
-&lt;block id="A9mH%dS\]~:x?ncVfLV-H" type="math\_number"&gt;
+                                  &lt;/shadow&gt;
 
-&lt;field name="NUM"&gt;-1&lt;/field&gt;
+                                  &lt;block id="1nR,VmTfjZW5rzOYV.0F" type="variables\_get"&gt;
 
-&lt;/block&gt;
+                                    &lt;field id="ebV92L\#%auU\)JspR{3\[9" name="VAR" variableType=""&gt;x&lt;/field&gt;
 
-&lt;/value&gt;
+                                  &lt;/block&gt;
 
-&lt;value name="B"&gt;
+                                &lt;/value&gt;
 
-&lt;shadow id="?EW;B;Pu@?$!9P3J1OJ~" type="math\_number"&gt;
+                              &lt;/block&gt;
 
-&lt;field name="NUM"&gt;0&lt;/field&gt;
+                            &lt;/value&gt;
 
-&lt;/shadow&gt;
+                            &lt;value name="B"&gt;
 
-&lt;block id="diBjZ\#ZOFc4lYC-\|O{/U" type="variables\_get"&gt;
+                              &lt;shadow id="~YdgvTk5Z\|0y\)zX7o1+K" type="math\_number"&gt;
 
-&lt;field id="tS+4~/CLZhvc-\_fBQRD{" name="VAR" variableType=""&gt;x&lt;/field&gt;
+                                &lt;field name="NUM"&gt;1&lt;/field&gt;
 
-&lt;/block&gt;
+                              &lt;/shadow&gt;
 
-&lt;/value&gt;
+                              &lt;block id="VdoRM-\`PtK\]uX\*nC6J\*O" type="math\_arithmetic"&gt;
 
-&lt;/block&gt;
+                                &lt;field name="OP"&gt;DIVIDE&lt;/field&gt;
 
-&lt;/value&gt;
+                                &lt;value name="A"&gt;
 
-&lt;value name="B"&gt;
+                                  &lt;shadow id="-;-dNsE~LA:Rnpb}Gh3J" type="math\_number"&gt;
 
-&lt;shadow id="s\)qRM\`ut%F^KQ+wnXcm7" type="math\_number"&gt;
+                                    &lt;field name="NUM"&gt;1&lt;/field&gt;
 
-&lt;field name="NUM"&gt;1&lt;/field&gt;
+                                  &lt;/shadow&gt;
 
-&lt;/shadow&gt;
+                                  &lt;block id="\)mb@R-xh\[jFax+$DC?l0" type="math\_number"&gt;
 
-&lt;block id="x\*}wO^2zejQE-\*,De.%k" type="math\_arithmetic"&gt;
+                                    &lt;field name="NUM"&gt;-1&lt;/field&gt;
 
-&lt;field name="OP"&gt;DIVIDE&lt;/field&gt;
+                                  &lt;/block&gt;
 
-&lt;value name="A"&gt;
+                                &lt;/value&gt;
 
-&lt;shadow id="bTi\#Q~dsLNU^uIHyG\]H~" type="math\_number"&gt;
+                                &lt;value name="B"&gt;
 
-&lt;field name="NUM"&gt;1&lt;/field&gt;
+                                  &lt;shadow id="+RSL1mmlSrk;Ms\`~UhLb" type="math\_number"&gt;
 
-&lt;/shadow&gt;
+                                    &lt;field name="NUM"&gt;1&lt;/field&gt;
 
-&lt;block id="kgG+gw!^lcOdO/7ZF\*EN" type="math\_number"&gt;
+                                  &lt;/shadow&gt;
 
-&lt;field name="NUM"&gt;1&lt;/field&gt;
+                                  &lt;block id="vi$JK%G4p+:\|Tz\]uJN9M" type="math\_arithmetic"&gt;
 
-&lt;/block&gt;
+                                    &lt;field name="OP"&gt;ADD&lt;/field&gt;
 
-&lt;/value&gt;
+                                    &lt;value name="A"&gt;
 
-&lt;value name="B"&gt;
+                                      &lt;shadow id="}GTh?CY3WIk-CrF8.z$\*" type="math\_number"&gt;
 
-&lt;shadow id="Yo\(KUO~Dp@\*!$\*GI?\]8." type="math\_number"&gt;
+                                        &lt;field name="NUM"&gt;1&lt;/field&gt;
 
-&lt;field name="NUM"&gt;1&lt;/field&gt;
+                                      &lt;/shadow&gt;
 
-&lt;/shadow&gt;
+                                      &lt;block id="vvs=~nd\_dc\[-:}EnogC3" type="math\_arithmetic"&gt;
 
-&lt;block id=".\]Y42v\*G\*pF7!yzuP\*Ew" type="math\_arithmetic"&gt;
+                                        &lt;field name="OP"&gt;ADD&lt;/field&gt;
 
-&lt;field name="OP"&gt;ADD&lt;/field&gt;
+                                        &lt;value name="A"&gt;
 
-&lt;value name="A"&gt;
+                                          &lt;shadow id="y:fi+/~ov\*h70u8CaHWw" type="math\_number"&gt;
 
-&lt;shadow id="P-W\`$tpu1@BhbGw7\#j\`T" type="math\_number"&gt;
+                                            &lt;field name="NUM"&gt;1&lt;/field&gt;
 
-&lt;field name="NUM"&gt;1&lt;/field&gt;
+                                          &lt;/shadow&gt;
 
-&lt;/shadow&gt;
+                                          &lt;block id="FT5\[S\|TgT8DetzG@7kTR" type="math\_number"&gt;
 
-&lt;block id="%065A\[3tYz\#!+=cz//\|d" type="math\_arithmetic"&gt;
+                                            &lt;field name="NUM"&gt;2&lt;/field&gt;
 
-&lt;field name="OP"&gt;MULTIPLY&lt;/field&gt;
+                                          &lt;/block&gt;
 
-&lt;value name="A"&gt;
+                                        &lt;/value&gt;
 
-&lt;shadow id="2e4{45\[/MZm\#PF~vwn8K" type="math\_number"&gt;
+                                        &lt;value name="B"&gt;
 
-&lt;field name="NUM"&gt;1&lt;/field&gt;
+                                          &lt;shadow id="p4dX5Q-\_\#V=w!\#I+\)I@n" type="math\_number"&gt;
 
-&lt;/shadow&gt;
+                                            &lt;field name="NUM"&gt;1&lt;/field&gt;
 
-&lt;block id="\_/avKtrdLa\*weyxPlMUj" type="math\_number"&gt;
+                                          &lt;/shadow&gt;
 
-&lt;field name="NUM"&gt;2&lt;/field&gt;
+                                          &lt;block id="HGaL!;dy2^IGn40j?Zmg" type="variables\_get"&gt;
 
-&lt;/block&gt;
+                                            &lt;field id="ebV92L\#%auU\)JspR{3\[9" name="VAR" variableType=""&gt;x&lt;/field&gt;
 
-&lt;/value&gt;
+                                          &lt;/block&gt;
 
-&lt;value name="B"&gt;
+                                        &lt;/value&gt;
 
-&lt;shadow id=".MHhT06.$41^ItXC9\]\[\*" type="math\_number"&gt;
+                                      &lt;/block&gt;
 
-&lt;field name="NUM"&gt;1&lt;/field&gt;
+                                    &lt;/value&gt;
 
-&lt;/shadow&gt;
+                                    &lt;value name="B"&gt;
 
-&lt;block id="l5aqQ\`\`tgO\(QMHZGjiSN" type="variables\_get"&gt;
+                                      &lt;shadow id="y9!7nCtX7+}tD717P\#q~" type="math\_number"&gt;
 
-&lt;field id="tS+4~/CLZhvc-\_fBQRD{" name="VAR" variableType=""&gt;x&lt;/field&gt;
+                                        &lt;field name="NUM"&gt;1&lt;/field&gt;
 
-&lt;/block&gt;
+                                      &lt;/shadow&gt;
 
-&lt;/value&gt;
+                                      &lt;block id="rO4U50\`}w6\*%A9sX$hOf" type="math\_number"&gt;
 
-&lt;/block&gt;
+                                        &lt;field name="NUM"&gt;1&lt;/field&gt;
 
-&lt;/value&gt;
+                                      &lt;/block&gt;
 
-&lt;value name="B"&gt;
+                                    &lt;/value&gt;
 
-&lt;shadow id="V%lcXzLSn/SQahAkMq=3" type="math\_number"&gt;
+                                  &lt;/block&gt;
 
-&lt;field name="NUM"&gt;1&lt;/field&gt;
+                                &lt;/value&gt;
 
-&lt;/shadow&gt;
+                              &lt;/block&gt;
 
-&lt;block id="0NJljiXNmp@k+\(;Q,XA5" type="math\_number"&gt;
+                            &lt;/value&gt;
 
-&lt;field name="NUM"&gt;1&lt;/field&gt;
+                          &lt;/block&gt;
 
-&lt;/block&gt;
+                        &lt;/value&gt;
 
-&lt;/value&gt;
+                      &lt;/block&gt;
 
-&lt;/block&gt;
+                    &lt;/value&gt;
 
-&lt;/value&gt;
+                    &lt;next&gt;
 
-&lt;/block&gt;
+                      &lt;block id="pUUVM\[^6b\[?viM8zU%sK" type="variables\_set"&gt;
 
-&lt;/value&gt;
+                        &lt;field id="ebV92L\#%auU\)JspR{3\[9" name="VAR" variableType=""&gt;x&lt;/field&gt;
 
-&lt;/block&gt;
+                        &lt;value name="VALUE"&gt;
 
-&lt;/value&gt;
+                          &lt;block id="Xam~y?Go%:9}::C,g7E-" type="math\_arithmetic"&gt;
 
-&lt;/block&gt;
+                            &lt;field name="OP"&gt;ADD&lt;/field&gt;
 
-&lt;/value&gt;
+                            &lt;value name="A"&gt;
 
-&lt;next&gt;
+                              &lt;shadow id="C+\]W\)\)jq\#\`txL?$$Hs.Y" type="math\_number"&gt;
 
-&lt;block id="u50Tk{q\],1W3KYhvXf}o" type="variables\_set"&gt;
+                                &lt;field name="NUM"&gt;1&lt;/field&gt;
 
-&lt;field id="tS+4~/CLZhvc-\_fBQRD{" name="VAR" variableType=""&gt;x&lt;/field&gt;
+                              &lt;/shadow&gt;
 
-&lt;value name="VALUE"&gt;
+                              &lt;block id="WiVqXRrm+SJ0nr,M\_X\|W" type="variables\_get"&gt;
 
-&lt;block id="ED\`RUB9T9\|LYjZ3Un\[Z\#" type="math\_arithmetic"&gt;
+                                &lt;field id="ebV92L\#%auU\)JspR{3\[9" name="VAR" variableType=""&gt;x&lt;/field&gt;
 
-&lt;field name="OP"&gt;ADD&lt;/field&gt;
+                              &lt;/block&gt;
 
-&lt;value name="A"&gt;
+                            &lt;/value&gt;
 
-&lt;shadow id="a?\#.{\(^\`1kvkN\[;Xdp\|Q" type="math\_number"&gt;
+                            &lt;value name="B"&gt;
 
-&lt;field name="NUM"&gt;1&lt;/field&gt;
+                              &lt;shadow id=",Q\`O/Nk}xRQFHL^YtjlO" type="math\_number"&gt;
 
-&lt;/shadow&gt;
+                                &lt;field name="NUM"&gt;1&lt;/field&gt;
 
-&lt;block id="GXSoXOGL\[\`mXmVQ%zNny" type="variables\_get"&gt;
+                              &lt;/shadow&gt;
 
-&lt;field id="tS+4~/CLZhvc-\_fBQRD{" name="VAR" variableType=""&gt;x&lt;/field&gt;
+                              &lt;block id="}sOi@3P3PF$w\(yDF5B.;" type="math\_number"&gt;
 
-&lt;/block&gt;
+                                &lt;field name="NUM"&gt;1&lt;/field&gt;
 
-&lt;/value&gt;
+                              &lt;/block&gt;
 
-&lt;value name="B"&gt;
+                            &lt;/value&gt;
 
-&lt;shadow id="@KgHxwV\#@+^U;T@k1b9\|" type="math\_number"&gt;
+                          &lt;/block&gt;
 
-&lt;field name="NUM"&gt;1&lt;/field&gt;
+                        &lt;/value&gt;
 
-&lt;/shadow&gt;
+                      &lt;/block&gt;
 
-&lt;block id="SB:\)YW\`Gu,,\`ENnTj8s\`" type="math\_number"&gt;
+                    &lt;/next&gt;
 
-&lt;field name="NUM"&gt;1&lt;/field&gt;
+                  &lt;/block&gt;
 
-&lt;/block&gt;
+                &lt;/statement&gt;
 
-&lt;/value&gt;
+                &lt;next&gt;
 
-&lt;/block&gt;
+                  &lt;block id="0@2\_DvV+I=lXe7{o^2wP" type="text\_print"&gt;
 
-&lt;/value&gt;
+                    &lt;value name="TEXT"&gt;
 
-&lt;/block&gt;
+                      &lt;shadow id="p$0Q\(;oc@}:\`.6npsi2\(" type="text"&gt;
 
-&lt;/next&gt;
+                        &lt;field name="TEXT"&gt;abc&lt;/field&gt;
 
-&lt;/block&gt;
+                      &lt;/shadow&gt;
 
-&lt;/statement&gt;
+                      &lt;block id="fkVFH=6SE~;ZE0E\|^zO7" type="variables\_get"&gt;
 
-&lt;next&gt;
+                        &lt;field id="}fGdqrSohSlCbR.b$P1F" name="VAR" variableType=""&gt;y&lt;/field&gt;
 
-&lt;block id="U\_8}?afs0S\#S{eP;X^02" type="text\_print"&gt;
+                      &lt;/block&gt;
 
-&lt;value name="TEXT"&gt;
+                    &lt;/value&gt;
 
-&lt;shadow id="j}hXXk1cWb1AHBmV=m~s" type="text"&gt;
+                  &lt;/block&gt;
 
-&lt;field name="TEXT"&gt;abc&lt;/field&gt;
+                &lt;/next&gt;
 
-&lt;/shadow&gt;
+              &lt;/block&gt;
 
-&lt;block id="D~P\(y{B/wb\_tInY/;D{1" type="variables\_get"&gt;
+            &lt;/statement&gt;
 
-&lt;field id="lVq:bzW\`S9hABBOzwEf3" name="VAR" variableType=""&gt;y&lt;/field&gt;
+          &lt;/block&gt;
 
-&lt;/block&gt;
+        &lt;/next&gt;
 
-&lt;/value&gt;
+      &lt;/block&gt;
 
-&lt;/block&gt;
+    &lt;/next&gt;
 
-&lt;/next&gt;
-
-&lt;/block&gt;
-
-&lt;/statement&gt;
-
-&lt;/block&gt;
-
-&lt;/next&gt;
-
-&lt;/block&gt;
-
-&lt;/next&gt;
-
-&lt;/block&gt;
+  &lt;/block&gt;
 
 &lt;/xml&gt;
+
+  
+@font-face{  
+font-family:"Times New Roman";  
+}  
+  
+@font-face{  
+font-family:"宋体";  
+}  
+  
+@font-face{  
+font-family:"Calibri";  
+}  
+  
+p.MsoNormal{  
+mso-style-name:正文;  
+mso-style-parent:"";  
+margin:0pt;  
+margin-bottom:.0001pt;  
+mso-pagination:none;  
+text-align:justify;  
+text-justify:inter-ideograph;  
+font-family:Calibri;  
+mso-fareast-font-family:宋体;  
+mso-bidi-font-family:'Times New Roman';  
+font-size:10.5000pt;  
+mso-font-kerning:1.0000pt;  
+}  
+  
+span.msoIns{  
+mso-style-type:export-only;  
+mso-style-name:"";  
+text-decoration:underline;  
+text-underline:single;  
+color:blue;  
+}  
+  
+span.msoDel{  
+mso-style-type:export-only;  
+mso-style-name:"";  
+text-decoration:line-through;  
+color:red;  
+}  
+@page{mso-page-border-surround-header:no;  
+	mso-page-border-surround-footer:no;}@page Section0{  
+}  
+div.Section0{page:Section0;}
 
 
 
@@ -594,7 +636,9 @@
 
 以下便是运算结果。
 
-![](file:///C:\Users\苬樱\AppData\Local\Temp\ksohtml\wpsA933.tmp.jpg)
 
-0�k��p�
+
+
+
+
 
