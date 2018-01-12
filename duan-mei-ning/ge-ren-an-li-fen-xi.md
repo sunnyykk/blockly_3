@@ -41,7 +41,7 @@
 三、XML代码
 
 ```
-<xml xmlns="http://www.w3.org/1999/xhtml">
+&lt;xml xmlns="http://www.w3.org/1999/xhtml"&gt;
   <variables>
     <variable id="a#(mtky~+wnWkWX3B;{j" type="">n</variable>
     <variable id="v%N/?F/(pcwLd-H4]~,`" type="">和</variable>
