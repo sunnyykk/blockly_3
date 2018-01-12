@@ -16,7 +16,7 @@
   * [个人课程分析](duan-mei-ning/ge-ren-ke-cheng-fen-xi.md)
 * [范欣欣](fan-xin-xin.md)
   * [Blockly个人课程报告](fan-xin-xin/blocklyge-ren-ke-cheng-bao-gao.md)
-  * Blockly的实际应用
+  * [Blockly的实际应用](fan-xin-xin/blocklyde-shi-ji-ying-yong.md)
 * [Blockly个人课程报告](blocklyge-ren-ke-cheng-bao-gao.md)
 * [Blockly的实际应用](blocklyde-shi-ji-ying-yong.md)
 
