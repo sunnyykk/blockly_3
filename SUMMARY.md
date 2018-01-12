@@ -13,6 +13,6 @@
 * [王晓春](wang-xiao-chun.md)
 * [段美凝](duan-mei-ning.md)
   * [个人案例分析](duan-mei-ning/ge-ren-an-li-fen-xi.md)
-  * 个人课程分析
+  * [个人课程分析](duan-mei-ning/ge-ren-ke-cheng-fen-xi.md)
 * [范欣欣](fan-xin-xin.md)
 

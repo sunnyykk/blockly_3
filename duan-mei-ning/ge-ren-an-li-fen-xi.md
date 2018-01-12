@@ -1,78 +1,3 @@
-&lt;!--  
- /\* Font Definitions \*/  
- @font-face  
-	{font-family:宋体;  
-	panose-1:2 1 6 0 3 1 1 1 1 1;  
-	mso-font-alt:SimSun;  
-	mso-font-charset:134;  
-	mso-generic-font-family:auto;  
-	mso-font-pitch:variable;  
-	mso-font-signature:3 680460288 22 0 262145 0;}  
-@font-face  
-	{font-family:"Cambria Math";  
-	panose-1:2 4 5 3 5 4 6 3 2 4;  
-	mso-font-charset:1;  
-	mso-generic-font-family:roman;  
-	mso-font-format:other;  
-	mso-font-pitch:variable;  
-	mso-font-signature:0 0 0 0 0 0;}  
-@font-face  
-	{font-family:Calibri;  
-	panose-1:2 15 5 2 2 2 4 3 2 4;  
-	mso-font-charset:0;  
-	mso-generic-font-family:swiss;  
-	mso-font-pitch:variable;  
-	mso-font-signature:-536859905 -1073732485 9 0 511 0;}  
-@font-face  
-	{font-family:"\@宋体";  
-	panose-1:2 1 6 0 3 1 1 1 1 1;  
-	mso-font-charset:134;  
-	mso-generic-font-family:auto;  
-	mso-font-pitch:variable;  
-	mso-font-signature:3 680460288 22 0 262145 0;}  
- /\* Style Definitions \*/  
- p.MsoNormal, li.MsoNormal, div.MsoNormal  
-	{mso-style-unhide:no;  
-	mso-style-qformat:yes;  
-	mso-style-parent:"";  
-	margin:0cm;  
-	margin-bottom:.0001pt;  
-	text-align:justify;  
-	text-justify:inter-ideograph;  
-	mso-pagination:none;  
-	font-size:10.5pt;  
-	mso-bidi-font-size:11.0pt;  
-	font-family:"Calibri","sans-serif";  
-	mso-ascii-font-family:Calibri;  
-	mso-ascii-theme-font:minor-latin;  
-	mso-fareast-font-family:宋体;  
-	mso-fareast-theme-font:minor-fareast;  
-	mso-hansi-font-family:Calibri;  
-	mso-hansi-theme-font:minor-latin;  
-	mso-bidi-font-family:"Times New Roman";  
-	mso-bidi-theme-font:minor-bidi;  
-	mso-font-kerning:1.0pt;}  
-.MsoChpDefault  
-	{mso-style-type:export-only;  
-	mso-default-props:yes;  
-	mso-bidi-font-family:"Times New Roman";  
-	mso-bidi-theme-font:minor-bidi;}  
- /\* Page Definitions \*/  
- @page  
-	{mso-page-border-surround-header:no;  
-	mso-page-border-surround-footer:no;}  
-@page Section1  
-	{size:595.3pt 841.9pt;  
-	margin:70.9pt 2.0cm 2.0cm 70.9pt;  
-	mso-header-margin:42.55pt;  
-	mso-footer-margin:49.6pt;  
-	mso-paper-source:0;  
-	layout-grid:15.6pt;}  
-div.Section1  
-	{page:Section1;}  
---&gt;  
-
-
 **Blockly个人案例报告**
 
 物理科学与技术学院 2017级物理学类1班段美凝学号：320170935290
@@ -83,17 +8,13 @@ div.Section1
 
 利用blockly运算1！+2！+3！+…+n！。
 
-
-
 模块截图：
 
-![](file:///C:\Users\LENOVO~1\AppData\Local\Temp\msohtmlclip1\01\clip_image002.jpg "模块（裁剪）.png")
+![](/assets/模块（裁剪）.png)![](file:///C:\Users\LENOVO~1\AppData\Local\Temp\msohtmlclip1\01\clip_image002.jpg "模块（裁剪）.png")
 
 运行方法：
 
 通过改变第一个模块中n的取值（其它模块不变动），以得到n取需要数值时的1！+2！+3！+…+n！的取值。
-
-
 
 二、设计过程
 
@@ -101,33 +22,25 @@ div.Section1
 
 先用小循环分别求出1！，2！，3！…，再用大循环把每一项的阶乘加起来，并因为运用了当型结构可以控制加到的范围是1！至输入的n的阶乘。
 
-
-
 遇到的困难及解决方案：
 
 1 .个人感到困难的地方是如何把多个“积”加起来（因为两个“积”相加时前一个“积”的数值已被取代），而不影响程序的正常运行。后来采用了增设“和”这一变量的方法，解决了这一问题。
 
 2 .由于设置的变量太多，出现了一些思维混乱。如，没有把每个变量进行赋值，以及小循环结束后忘记将“积”赋值回“1”。所幸后来都找到了错误。
 
-
-
-
-
 运行结果截图：
 
 1 .输入3之后的结果：
 
-![](file:///C:\Users\LENOVO~1\AppData\Local\Temp\msohtmlclip1\01\clip_image004.jpg "成功1（裁剪）.png")
+![](file:///C:\Users\LENOVO~1\AppData\Local\Temp\msohtmlclip1\01\clip_image004.jpg "成功1（裁剪）.png")![](/assets/成功1（裁剪）.png)
 
 2 .输入12之后的结果：
 
-![](file:///C:\Users\LENOVO~1\AppData\Local\Temp\msohtmlclip1\01\clip_image006.jpg "成功2（裁剪）.png")
-
-
+![](file:///C:\Users\LENOVO~1\AppData\Local\Temp\msohtmlclip1\01\clip_image006.jpg "成功2（裁剪）.png")![](/assets/成功2（裁剪）.png)
 
 三、XML代码
 
-&lt;xml xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;xml xmlns="[http://www.w3.org/1999/xhtml"&gt](http://www.w3.org/1999/xhtml"&gt);
 
 &lt;variables&gt;
 
@@ -564,6 +477,4 @@ div.Section1
 &lt;/block&gt;
 
 &lt;/xml&gt;
-
- � \_Ô+5"�K
 
