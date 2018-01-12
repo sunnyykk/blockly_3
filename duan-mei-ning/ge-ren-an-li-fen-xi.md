@@ -10,7 +10,7 @@
 
 模块截图：
 
-![](/assets/模块（裁剪）.png)![](file:///C:\Users\LENOVO~1\AppData\Local\Temp\msohtmlclip1\01\clip_image002.jpg "模块（裁剪）.png")
+![](/assets/模块（裁剪）.png)
 
 运行方法：
 
@@ -32,11 +32,11 @@
 
 1 .输入3之后的结果：
 
-![](file:///C:\Users\LENOVO~1\AppData\Local\Temp\msohtmlclip1\01\clip_image004.jpg "成功1（裁剪）.png")![](/assets/成功1（裁剪）.png)
+![](/assets/成功1（裁剪）.png)
 
 2 .输入12之后的结果：
 
-![](file:///C:\Users\LENOVO~1\AppData\Local\Temp\msohtmlclip1\01\clip_image006.jpg "成功2（裁剪）.png")![](/assets/成功2（裁剪）.png)
+![](/assets/成功2（裁剪）.png)
 
 三、XML代码
 
