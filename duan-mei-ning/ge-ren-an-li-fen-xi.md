@@ -40,6 +40,7 @@
 
 三、XML代码
 
+```
 <xml xmlns="http://www.w3.org/1999/xhtml">
   <variables>
     <variable id="a#(mtky~+wnWkWX3B;{j" type="">n</variable>
@@ -257,3 +258,5 @@
     </next>
   </block>
 </xml>
+```
+
