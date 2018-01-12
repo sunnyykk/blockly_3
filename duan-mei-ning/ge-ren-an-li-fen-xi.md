@@ -40,441 +40,220 @@
 
 三、XML代码
 
-&lt;xml xmlns="[http://www.w3.org/1999/xhtml"&gt](http://www.w3.org/1999/xhtml"&gt);
-
-&lt;variables&gt;
-
-&lt;variable id="sWbVPkU7\#nKyQ\#?NT5PB" type=""&gt;n&lt;/variable&gt;
-
-&lt;variable id="F\#MtcaH7\#\|TFN,FX-$ZU" type=""&gt;x&lt;/variable&gt;
-
-&lt;variable id="EHa1Y}d?0\#Q/.$X0\#LL\*" type=""&gt;次数&lt;/variable&gt;
-
-&lt;variable id="\_\)Cs\[g9\[\_sctsc\`Y8\#y\]" type=""&gt;积&lt;/variable&gt;
-
-&lt;variable id="So6u3\(;\|M0;0\(3;U7la6" type=""&gt;和&lt;/variable&gt;
-
-&lt;variable id="eHj+L\)j=fJ\(RUJIir\(,}" type=""&gt;a&lt;/variable&gt;
-
-&lt;variable id="\`aEtI:;C\(\|y8tiTMNq\_:" type=""&gt;b&lt;/variable&gt;
-
-&lt;/variables&gt;
-
-&lt;block id="wCAZH$s\]pf+N7MOwE\|O~" type="variables\_set" x="288" y="38"&gt;
-
-&lt;field id="sWbVPkU7\#nKyQ\#?NT5PB" name="VAR" variableType=""&gt;n&lt;/field&gt;
-
-&lt;value name="VALUE"&gt;
-
-&lt;block id="jt1\|jMi}:5\`48\#uQIR\`=" type="math\_number"&gt;
-
-&lt;field name="NUM"&gt;12&lt;/field&gt;
-
-&lt;/block&gt;
-
-&lt;/value&gt;
-
-&lt;next&gt;
-
-&lt;block id="\*0h;i:lRZ4tI15}QUI\(\#" type="variables\_set"&gt;
-
-&lt;field id="So6u3\(;\|M0;0\(3;U7la6" name="VAR" variableType=""&gt;和&lt;/field&gt;
-
-&lt;value name="VALUE"&gt;
-
-&lt;block id="yixJ\_8=O6k5=mT5Zmup0" type="math\_number"&gt;
-
-&lt;field name="NUM"&gt;0&lt;/field&gt;
-
-&lt;/block&gt;
-
-&lt;/value&gt;
-
-&lt;next&gt;
-
-&lt;block id="!$ci$,ol3wF\)fdMbzibw" type="variables\_set"&gt;
-
-&lt;field id="\_\)Cs\[g9\[\_sctsc\`Y8\#y\]" name="VAR" variableType=""&gt;积&lt;/field&gt;
-
-&lt;value name="VALUE"&gt;
-
-&lt;block id="g-OTy{\]G!\[$OZ\[iq4P%5" type="math\_number"&gt;
-
-&lt;field name="NUM"&gt;1&lt;/field&gt;
-
-&lt;/block&gt;
-
-&lt;/value&gt;
-
-&lt;next&gt;
-
-&lt;block id="\[K,xeEPv\(?i$kEY\*;P9%" type="variables\_set"&gt;
-
-&lt;field id="F\#MtcaH7\#\|TFN,FX-$ZU" name="VAR" variableType=""&gt;x&lt;/field&gt;
-
-&lt;value name="VALUE"&gt;
-
-&lt;block id="\`Yps?/\#RzqL9\(sL5f\*Zq" type="math\_number"&gt;
-
-&lt;field name="NUM"&gt;1&lt;/field&gt;
-
-&lt;/block&gt;
-
-&lt;/value&gt;
-
-&lt;next&gt;
-
-&lt;block id="xhcwqF\#J+I7kJNG%l.4-" type="controls\_whileUntil"&gt;
-
-&lt;field name="MODE"&gt;WHILE&lt;/field&gt;
-
-&lt;value name="BOOL"&gt;
-
-&lt;block id="f\[m-Ud;Mqv+$+=~jL@\]8" type="logic\_compare"&gt;
-
-&lt;field name="OP"&gt;LTE&lt;/field&gt;
-
-&lt;value name="A"&gt;
-
-&lt;block id="d6Ks2mZWn2YbS\`bZ0W\*m" type="variables\_get"&gt;
-
-&lt;field id="F\#MtcaH7\#\|TFN,FX-$ZU" name="VAR" variableType=""&gt;x&lt;/field&gt;
-
-&lt;/block&gt;
-
-&lt;/value&gt;
-
-&lt;value name="B"&gt;
-
-&lt;block id="\_@.Bvw?c9Gpnyl89\|uGy" type="variables\_get"&gt;
-
-&lt;field id="sWbVPkU7\#nKyQ\#?NT5PB" name="VAR" variableType=""&gt;n&lt;/field&gt;
-
-&lt;/block&gt;
-
-&lt;/value&gt;
-
-&lt;/block&gt;
-
-&lt;/value&gt;
-
-&lt;statement name="DO"&gt;
-
-&lt;block id=".p\|eX\*ZBBw?9\_oBV7\`yC" type="variables\_set"&gt;
-
-&lt;field id="EHa1Y}d?0\#Q/.$X0\#LL\*" name="VAR" variableType=""&gt;次数&lt;/field&gt;
-
-&lt;value name="VALUE"&gt;
-
-&lt;block id="\|f3JkFSc\*U\[!6~\_\(.qVA" type="math\_number"&gt;
-
-&lt;field name="NUM"&gt;1&lt;/field&gt;
-
-&lt;/block&gt;
-
-&lt;/value&gt;
-
-&lt;next&gt;
-
-&lt;block id="\#\*+\(yOgPGZCOAEJCY$5Z" type="controls\_whileUntil"&gt;
-
-&lt;field name="MODE"&gt;WHILE&lt;/field&gt;
-
-&lt;value name="BOOL"&gt;
-
-&lt;block id="jj~%-H0BT1s\(V\[=}4pp^" type="logic\_compare"&gt;
-
-&lt;field name="OP"&gt;LTE&lt;/field&gt;
-
-&lt;value name="A"&gt;
-
-&lt;block id=".\*MuvvtDXU-=Q\)oMCq5g" type="variables\_get"&gt;
-
-&lt;field id="EHa1Y}d?0\#Q/.$X0\#LL\*" name="VAR" variableType=""&gt;次数&lt;/field&gt;
-
-&lt;/block&gt;
-
-&lt;/value&gt;
-
-&lt;value name="B"&gt;
-
-&lt;block id="oeIAq:^/?{83%nA6i\|RR" type="variables\_get"&gt;
-
-&lt;field id="F\#MtcaH7\#\|TFN,FX-$ZU" name="VAR" variableType=""&gt;x&lt;/field&gt;
-
-&lt;/block&gt;
-
-&lt;/value&gt;
-
-&lt;/block&gt;
-
-&lt;/value&gt;
-
-&lt;statement name="DO"&gt;
-
-&lt;block id="d0\]\|RY\]\*Z9h\`1dF\_08?6" type="variables\_set"&gt;
-
-&lt;field id="\_\)Cs\[g9\[\_sctsc\`Y8\#y\]" name="VAR" variableType=""&gt;积&lt;/field&gt;
-
-&lt;value name="VALUE"&gt;
-
-&lt;block id="lz\_kozKJ\[p/\]y~^2YWg\|" type="math\_arithmetic"&gt;
-
-&lt;field name="OP"&gt;MULTIPLY&lt;/field&gt;
-
-&lt;value name="A"&gt;
-
-&lt;shadow id="XP{l+ppPiX\(YEIU\(:p8^" type="math\_number"&gt;
-
-&lt;field name="NUM"&gt;1&lt;/field&gt;
-
-&lt;/shadow&gt;
-
-&lt;block id="mkzPH+{,T\_bm7\(^/h2h4" type="variables\_get"&gt;
-
-&lt;field id="EHa1Y}d?0\#Q/.$X0\#LL\*" name="VAR" variableType=""&gt;次数&lt;/field&gt;
-
-&lt;/block&gt;
-
-&lt;/value&gt;
-
-&lt;value name="B"&gt;
-
-&lt;shadow id="^IP,wa.6Y\|CX!~6\|\[!Q9" type="math\_number"&gt;
-
-&lt;field name="NUM"&gt;1&lt;/field&gt;
-
-&lt;/shadow&gt;
-
-&lt;block id="cS\|f/,5kGUT@L1W^BD6\`" type="variables\_get"&gt;
-
-&lt;field id="\_\)Cs\[g9\[\_sctsc\`Y8\#y\]" name="VAR" variableType=""&gt;积&lt;/field&gt;
-
-&lt;/block&gt;
-
-&lt;/value&gt;
-
-&lt;/block&gt;
-
-&lt;/value&gt;
-
-&lt;next&gt;
-
-&lt;block id="V~~^2sc4\#fNHS$YBH8TA" type="variables\_set"&gt;
-
-&lt;field id="EHa1Y}d?0\#Q/.$X0\#LL\*" name="VAR" variableType=""&gt;次数&lt;/field&gt;
-
-&lt;value name="VALUE"&gt;
-
-&lt;block id="\*w5\#x\#nn,yIsOvE4Lj1+" type="math\_arithmetic"&gt;
-
-&lt;field name="OP"&gt;ADD&lt;/field&gt;
-
-&lt;value name="A"&gt;
-
-&lt;shadow id="jZlxX4ou$HX@XPb-BPB\#" type="math\_number"&gt;
-
-&lt;field name="NUM"&gt;1&lt;/field&gt;
-
-&lt;/shadow&gt;
-
-&lt;block id="aL\`XXhkfOMy\[.RhMD3\)P" type="variables\_get"&gt;
-
-&lt;field id="EHa1Y}d?0\#Q/.$X0\#LL\*" name="VAR" variableType=""&gt;次数&lt;/field&gt;
-
-&lt;/block&gt;
-
-&lt;/value&gt;
-
-&lt;value name="B"&gt;
-
-&lt;shadow id="/Zlig%\]9!L1a7hv%g?IN" type="math\_number"&gt;
-
-&lt;field name="NUM"&gt;1&lt;/field&gt;
-
-&lt;/shadow&gt;
-
-&lt;/value&gt;
-
-&lt;/block&gt;
-
-&lt;/value&gt;
-
-&lt;/block&gt;
-
-&lt;/next&gt;
-
-&lt;/block&gt;
-
-&lt;/statement&gt;
-
-&lt;next&gt;
-
-&lt;block id="Q@N\*,%-P\#he:Zx1L\(\(\[K" type="variables\_set"&gt;
-
-&lt;field id="So6u3\(;\|M0;0\(3;U7la6" name="VAR" variableType=""&gt;和&lt;/field&gt;
-
-&lt;value name="VALUE"&gt;
-
-&lt;block id="Mtz6Z.\*zqCp:\_uk\)RO\)\]" type="math\_arithmetic"&gt;
-
-&lt;field name="OP"&gt;ADD&lt;/field&gt;
-
-&lt;value name="A"&gt;
-
-&lt;shadow id="4InrUaMk\)rnU$}JCW!BH" type="math\_number"&gt;
-
-&lt;field name="NUM"&gt;1&lt;/field&gt;
-
-&lt;/shadow&gt;
-
-&lt;block id="438aTn\|s$7hV\_yl3.L1X" type="variables\_get"&gt;
-
-&lt;field id="\_\)Cs\[g9\[\_sctsc\`Y8\#y\]" name="VAR" variableType=""&gt;积&lt;/field&gt;
-
-&lt;/block&gt;
-
-&lt;/value&gt;
-
-&lt;value name="B"&gt;
-
-&lt;shadow id="z\[A^mrdR\(TxhJm\*y9H^N" type="math\_number"&gt;
-
-&lt;field name="NUM"&gt;1&lt;/field&gt;
-
-&lt;/shadow&gt;
-
-&lt;block id="CX\_$E}\_Fd\|j8VS!a\*-G\*" type="variables\_get"&gt;
-
-&lt;field id="So6u3\(;\|M0;0\(3;U7la6" name="VAR" variableType=""&gt;和&lt;/field&gt;
-
-&lt;/block&gt;
-
-&lt;/value&gt;
-
-&lt;/block&gt;
-
-&lt;/value&gt;
-
-&lt;next&gt;
-
-&lt;block id="X\#ExXW\(E\]\*eyhS+\]OI2{" type="variables\_set"&gt;
-
-&lt;field id="\_\)Cs\[g9\[\_sctsc\`Y8\#y\]" name="VAR" variableType=""&gt;积&lt;/field&gt;
-
-&lt;value name="VALUE"&gt;
-
-&lt;block id="9H?XGU\_rc\|F\*1u,@UZ8v" type="math\_number"&gt;
-
-&lt;field name="NUM"&gt;1&lt;/field&gt;
-
-&lt;/block&gt;
-
-&lt;/value&gt;
-
-&lt;next&gt;
-
-&lt;block id="0:O2dYlmgrfY};epU?-0" type="variables\_set"&gt;
-
-&lt;field id="F\#MtcaH7\#\|TFN,FX-$ZU" name="VAR" variableType=""&gt;x&lt;/field&gt;
-
-&lt;value name="VALUE"&gt;
-
-&lt;block id="oRc:\|Jejx;JnK\[p,{Ex." type="math\_arithmetic"&gt;
-
-&lt;field name="OP"&gt;ADD&lt;/field&gt;
-
-&lt;value name="A"&gt;
-
-&lt;shadow id="B9T@}w0Q$%:Pj\]OZI7jo" type="math\_number"&gt;
-
-&lt;field name="NUM"&gt;1&lt;/field&gt;
-
-&lt;/shadow&gt;
-
-&lt;block id="+%dFPa\[yAtLnaPV\)a+mm" type="variables\_get"&gt;
-
-&lt;field id="F\#MtcaH7\#\|TFN,FX-$ZU" name="VAR" variableType=""&gt;x&lt;/field&gt;
-
-&lt;/block&gt;
-
-&lt;/value&gt;
-
-&lt;value name="B"&gt;
-
-&lt;shadow id="Yj%\_PEvR$vkR\]tXk}tp?" type="math\_number"&gt;
-
-&lt;field name="NUM"&gt;1&lt;/field&gt;
-
-&lt;/shadow&gt;
-
-&lt;/value&gt;
-
-&lt;/block&gt;
-
-&lt;/value&gt;
-
-&lt;/block&gt;
-
-&lt;/next&gt;
-
-&lt;/block&gt;
-
-&lt;/next&gt;
-
-&lt;/block&gt;
-
-&lt;/next&gt;
-
-&lt;/block&gt;
-
-&lt;/next&gt;
-
-&lt;/block&gt;
-
-&lt;/statement&gt;
-
-&lt;next&gt;
-
-&lt;block id="P5UVMF\|l$+~yb\#BI@s{9" type="text\_print"&gt;
-
-&lt;value name="TEXT"&gt;
-
-&lt;shadow id=";P,h%HK%u@EJb?m\[MwKl" type="text"&gt;
-
-&lt;field name="TEXT"&gt;abc&lt;/field&gt;
-
-&lt;/shadow&gt;
-
-&lt;block id="afIq\*AsGq8\_;%xv^0=h\(" type="variables\_get"&gt;
-
-&lt;field id="So6u3\(;\|M0;0\(3;U7la6" name="VAR" variableType=""&gt;和&lt;/field&gt;
-
-&lt;/block&gt;
-
-&lt;/value&gt;
-
-&lt;/block&gt;
-
-&lt;/next&gt;
-
-&lt;/block&gt;
-
-&lt;/next&gt;
-
-&lt;/block&gt;
-
-&lt;/next&gt;
-
-&lt;/block&gt;
-
-&lt;/next&gt;
-
-&lt;/block&gt;
-
-&lt;/next&gt;
-
-&lt;/block&gt;
-
-&lt;/xml&gt;
-
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <variables>
+    <variable id="a#(mtky~+wnWkWX3B;{j" type="">n</variable>
+    <variable id="v%N/?F/(pcwLd-H4]~,`" type="">和</variable>
+    <variable id=",TMq3}%^r=x@5jGT,OHK" type="">积</variable>
+    <variable id="-ECAVeEEGGbU.m[~z.Er" type="">x</variable>
+    <variable id="u3O2!iV;g!Key-;]z::x" type="">次数</variable>
+  </variables>
+  <block id="UBDsPPfM[VF,7@};T/@`" type="variables_set" x="363" y="38">
+    <field id="a#(mtky~+wnWkWX3B;{j" name="VAR" variableType="">n</field>
+    <value name="VALUE">
+      <block id="gO%NK{X8]|(^02hYOEmJ" type="math_number">
+        <field name="NUM">0</field>
+      </block>
+    </value>
+    <next>
+      <block id="T3[OJ!gY2[o3iq*qXsDf" type="variables_set">
+        <field id="v%N/?F/(pcwLd-H4]~,`" name="VAR" variableType="">和</field>
+        <value name="VALUE">
+          <block id="cpFjg0{hpS{0E.9oNl*o" type="math_number">
+            <field name="NUM">0</field>
+          </block>
+        </value>
+        <next>
+          <block id="v0v@@1t-p5lfr?$t^MUT" type="variables_set">
+            <field id=",TMq3}%^r=x@5jGT,OHK" name="VAR" variableType="">积</field>
+            <value name="VALUE">
+              <block id="jf)]_R#7GhyIuv?s}$r_" type="math_number">
+                <field name="NUM">1</field>
+              </block>
+            </value>
+            <next>
+              <block id="i,ImsVjPu%^QIex3F}4q" type="variables_set">
+                <field id="-ECAVeEEGGbU.m[~z.Er" name="VAR" variableType="">x</field>
+                <value name="VALUE">
+                  <block id="28kcF5Q5(/bdJsjRpwF+" type="math_number">
+                    <field name="NUM">1</field>
+                  </block>
+                </value>
+                <next>
+                  <block id="|7,.DCJrFfMub@1RUF]#" type="controls_whileUntil">
+                    <field name="MODE">WHILE</field>
+                    <value name="BOOL">
+                      <block id="Rv4A_ZF/aYs1]}Ui8(lb" type="logic_compare">
+                        <field name="OP">LTE</field>
+                        <value name="A">
+                          <block id="9VDi)C9Ml`pn^IIi(,j|" type="variables_get">
+                            <field id="-ECAVeEEGGbU.m[~z.Er" name="VAR" variableType="">x</field>
+                          </block>
+                        </value>
+                        <value name="B">
+                          <block id="NoPS0vUk?j|`:GjL]xI6" type="variables_get">
+                            <field id="a#(mtky~+wnWkWX3B;{j" name="VAR" variableType="">n</field>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                    <statement name="DO">
+                      <block id="z~}50Qw85Nb$[biy.l7G" type="variables_set">
+                        <field id="u3O2!iV;g!Key-;]z::x" name="VAR" variableType="">次数</field>
+                        <value name="VALUE">
+                          <block id="v]qXQ_o%CT`rpqaSK$6q" type="math_number">
+                            <field name="NUM">1</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block id="J/LH!q)v0~zi+q[LGO#I" type="controls_whileUntil">
+                            <field name="MODE">WHILE</field>
+                            <value name="BOOL">
+                              <block id="[7$nhtMB?Q0]E%0rr4FA" type="logic_compare">
+                                <field name="OP">LTE</field>
+                                <value name="A">
+                                  <block id="-g4A5^Pl}[fgA?_hiL+m" type="variables_get">
+                                    <field id="u3O2!iV;g!Key-;]z::x" name="VAR" variableType="">次数</field>
+                                  </block>
+                                </value>
+                                <value name="B">
+                                  <block id="Q:Zi@TQy?D@EHb|)KEFv" type="variables_get">
+                                    <field id="-ECAVeEEGGbU.m[~z.Er" name="VAR" variableType="">x</field>
+                                  </block>
+                                </value>
+                              </block>
+                            </value>
+                            <statement name="DO">
+                              <block id="-Nr5?:TMA8B(E%,Y9QNY" type="variables_set">
+                                <field id=",TMq3}%^r=x@5jGT,OHK" name="VAR" variableType="">积</field>
+                                <value name="VALUE">
+                                  <block id="KV*9=2+Pj)O#(1-Pl[m(" type="math_arithmetic">
+                                    <field name="OP">MULTIPLY</field>
+                                    <value name="A">
+                                      <shadow id="4g@H|N4p#_OS/0{3X_V1" type="math_number">
+                                        <field name="NUM">1</field>
+                                      </shadow>
+                                      <block id="R6c=#2}gkx^zwhHe*/[G" type="variables_get">
+                                        <field id="u3O2!iV;g!Key-;]z::x" name="VAR" variableType="">次数</field>
+                                      </block>
+                                    </value>
+                                    <value name="B">
+                                      <shadow id="$f/z@vj(gdkPptph4NLv" type="math_number">
+                                        <field name="NUM">1</field>
+                                      </shadow>
+                                      <block id="43^jh+dwd.jKNtPP.WNc" type="variables_get">
+                                        <field id=",TMq3}%^r=x@5jGT,OHK" name="VAR" variableType="">积</field>
+                                      </block>
+                                    </value>
+                                  </block>
+                                </value>
+                                <next>
+                                  <block id="1ZXMQjgH$Et#.m|O2c^!" type="variables_set">
+                                    <field id="u3O2!iV;g!Key-;]z::x" name="VAR" variableType="">次数</field>
+                                    <value name="VALUE">
+                                      <block id="00_]P^KVlq$I:%x*y2RR" type="math_arithmetic">
+                                        <field name="OP">ADD</field>
+                                        <value name="A">
+                                          <shadow id="d[Mh7bq/Wq0}m0g5@`%j" type="math_number">
+                                            <field name="NUM">1</field>
+                                          </shadow>
+                                          <block id="hI]y8?FGkU#rS.p5NJX9" type="variables_get">
+                                            <field id="u3O2!iV;g!Key-;]z::x" name="VAR" variableType="">次数</field>
+                                          </block>
+                                        </value>
+                                        <value name="B">
+                                          <shadow id="uu[*LVSqcm4MApz[.;y7" type="math_number">
+                                            <field name="NUM">1</field>
+                                          </shadow>
+                                        </value>
+                                      </block>
+                                    </value>
+                                  </block>
+                                </next>
+                              </block>
+                            </statement>
+                            <next>
+                              <block id="wp5QP{R?b1dZ1^]R4OJ[" type="variables_set">
+                                <field id="v%N/?F/(pcwLd-H4]~,`" name="VAR" variableType="">和</field>
+                                <value name="VALUE">
+                                  <block id="C?v5,kojM$2j:{cL3`0u" type="math_arithmetic">
+                                    <field name="OP">ADD</field>
+                                    <value name="A">
+                                      <shadow id="qOMR!QYPrc`k[3#8UGOB" type="math_number">
+                                        <field name="NUM">1</field>
+                                      </shadow>
+                                      <block id="*=B*M/!~A|lf!KMb)z?_" type="variables_get">
+                                        <field id=",TMq3}%^r=x@5jGT,OHK" name="VAR" variableType="">积</field>
+                                      </block>
+                                    </value>
+                                    <value name="B">
+                                      <shadow id="hZ~DZg@[lUUe?c3Qq=s=" type="math_number">
+                                        <field name="NUM">1</field>
+                                      </shadow>
+                                      <block id="pxtH3IpHU4??*(:+O2kD" type="variables_get">
+                                        <field id="v%N/?F/(pcwLd-H4]~,`" name="VAR" variableType="">和</field>
+                                      </block>
+                                    </value>
+                                  </block>
+                                </value>
+                                <next>
+                                  <block id="2p]UMA{2y8!.`r#!Lk81" type="variables_set">
+                                    <field id=",TMq3}%^r=x@5jGT,OHK" name="VAR" variableType="">积</field>
+                                    <value name="VALUE">
+                                      <block id="RSEk5BKl~_WC(Q/NlR#," type="math_number">
+                                        <field name="NUM">1</field>
+                                      </block>
+                                    </value>
+                                    <next>
+                                      <block id="I8(mqkNy:jV_^hMt;B.r" type="variables_set">
+                                        <field id="-ECAVeEEGGbU.m[~z.Er" name="VAR" variableType="">x</field>
+                                        <value name="VALUE">
+                                          <block id="PIu*;Y}fn0-j:vBV/~7c" type="math_arithmetic">
+                                            <field name="OP">ADD</field>
+                                            <value name="A">
+                                              <shadow id="1HO$~_hAnfWVJg8py(^F" type="math_number">
+                                                <field name="NUM">1</field>
+                                              </shadow>
+                                              <block id="x6WQvQUtuAG4[K+ojd5E" type="variables_get">
+                                                <field id="-ECAVeEEGGbU.m[~z.Er" name="VAR" variableType="">x</field>
+                                              </block>
+                                            </value>
+                                            <value name="B">
+                                              <shadow id="Y?[I!E=r+AI}-)p?Fg$T" type="math_number">
+                                                <field name="NUM">1</field>
+                                              </shadow>
+                                            </value>
+                                          </block>
+                                        </value>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </statement>
+                    <next>
+                      <block id="]nK69wA#P+kvw@Bcp1C{" type="text_print">
+                        <value name="TEXT">
+                          <shadow id="OQD=mq=oB;qMNP;tp/aG" type="text">
+                            <field name="TEXT">abc</field>
+                          </shadow>
+                          <block id="G1yNrBrDIiM]vynEztvz" type="variables_get">
+                            <field id="v%N/?F/(pcwLd-H4]~,`" name="VAR" variableType="">和</field>
+                          </block>
+                        </value>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>
