@@ -9,7 +9,7 @@
   * [小组报告之第二章](chang-bei-jia/xiao-zu-bao-gao-zhi-di-er-zhang.md)
 * [姚凤羽](yao-feng-yu.md)
   * [个人课程报告](yao-feng-yu/ge-ren-ke-cheng-bao-gao.md)
-  * 个人Blocky案例
+  * [个人Blocky案例](yao-feng-yu/ge-ren-blocky-an-li.md)
 * [王晓春](wang-xiao-chun.md)
 * [段美凝](duan-mei-ning.md)
 * [范欣欣](fan-xin-xin.md)
