@@ -1,29 +1,25 @@
-  
-
-
 **Blockly的实际应用**
-
-
 
 在课堂中我学会了运用Blockly来解决简单的算法问题，接下来便将运用Blockly来对π/4在误差范围内进行近似求值。
 
-
-
 首先要知道π/4近似等于1-1/3+1/5-1/7+……+（-1）^\(x+1\)·\[1/（2x+1）\]。
 
-注：因为此程序中的初始赋值为1，所以将通项改为（-1\)^x·\[1/\(2x+10\]。
+注：因为此程序中的初始赋值为1，所以将通项改为（-1\)^x·\[1/\(2x+10\]。![](/assets/图片2.png)
 
-**XML代码：&lt;xml xmlns="http://www.w3.org/1999/xhtml"&gt;**
+**XML代码：&lt;xml xmlns="**\[[http://www.w3.org/1999/xhtml"&gt\]\(http://www.w3.org/1999/xhtml"&gt\)\*\*](http://www.w3.org/1999/xhtml"&gt]%28http://www.w3.org/1999/xhtml"&gt%29**);  
+\*\*
 
-  &lt;variables&gt;
+&lt;variables&gt;
 
-    &lt;variable id="ebV92L\#%auU\)JspR{3\[9" type=""&gt;x&lt;/variable&gt;
+```
+&lt;variable id="ebV92L\#%auU\)JspR{3\[9" type=""&gt;x&lt;/variable&gt;
 
-    &lt;variable id="}fGdqrSohSlCbR.b$P1F" type=""&gt;y&lt;/variable&gt;
+&lt;variable id="}fGdqrSohSlCbR.b$P1F" type=""&gt;y&lt;/variable&gt;
+```
 
-  &lt;/variables&gt;
+&lt;/variables&gt;
 
-  &lt;block id="{@-\]qI\*vKQmn7A@Dz$;i" type="variables\_set" x="-87" y="-38"&gt;
+&lt;block id="{@-\]qI\*vKQmn7A@Dz$;i" type="variables\_set" x="-87" y="-38"&gt;
 
     &lt;field id="ebV92L\#%auU\)JspR{3\[9" name="VAR" variableType=""&gt;x&lt;/field&gt;
 
@@ -577,68 +573,7 @@
 
     &lt;/next&gt;
 
-  &lt;/block&gt;
-
-&lt;/xml&gt;
-
-  
-@font-face{  
-font-family:"Times New Roman";  
-}  
-  
-@font-face{  
-font-family:"宋体";  
-}  
-  
-@font-face{  
-font-family:"Calibri";  
-}  
-  
-p.MsoNormal{  
-mso-style-name:正文;  
-mso-style-parent:"";  
-margin:0pt;  
-margin-bottom:.0001pt;  
-mso-pagination:none;  
-text-align:justify;  
-text-justify:inter-ideograph;  
-font-family:Calibri;  
-mso-fareast-font-family:宋体;  
-mso-bidi-font-family:'Times New Roman';  
-font-size:10.5000pt;  
-mso-font-kerning:1.0000pt;  
-}  
-  
-span.msoIns{  
-mso-style-type:export-only;  
-mso-style-name:"";  
-text-decoration:underline;  
-text-underline:single;  
-color:blue;  
-}  
-  
-span.msoDel{  
-mso-style-type:export-only;  
-mso-style-name:"";  
-text-decoration:line-through;  
-color:red;  
-}  
-@page{mso-page-border-surround-header:no;  
-	mso-page-border-surround-footer:no;}@page Section0{  
-}  
-div.Section0{page:Section0;}
-
-
-
 首先将初始变量x赋值为1，初始变量y赋值为1，限定误差范围小于0.12，因此如果y-π/4&lt;0.12,则直接打印出y,否则执另一个命令，即进入循环结构。赋值y到y+（-1）^x·\[1/\(2x+1\)\],赋值x到x+1，重复直到y-π/4&lt;0.12。打印y，此时输出的y值即为π/4的近似值。
 
-
-
-以下便是运算结果。
-
-
-
-
-
-
+以下便是运算结果。![](/assets/图片1.png)
 
