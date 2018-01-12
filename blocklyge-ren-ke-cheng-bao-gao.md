@@ -1,61 +1,8 @@
-  
-@font-face{  
-font-family:"Times New Roman";  
-}  
-  
-@font-face{  
-font-family:"宋体";  
-}  
-  
-@font-face{  
-font-family:"Calibri";  
-}  
-  
-p.MsoNormal{  
-mso-style-name:正文;  
-mso-style-parent:"";  
-margin:0pt;  
-margin-bottom:.0001pt;  
-mso-pagination:none;  
-text-align:justify;  
-text-justify:inter-ideograph;  
-font-family:Calibri;  
-mso-fareast-font-family:宋体;  
-mso-bidi-font-family:'Times New Roman';  
-font-size:10.5000pt;  
-mso-font-kerning:1.0000pt;  
-}  
-  
-span.msoIns{  
-mso-style-type:export-only;  
-mso-style-name:"";  
-text-decoration:underline;  
-text-underline:single;  
-color:blue;  
-}  
-  
-span.msoDel{  
-mso-style-type:export-only;  
-mso-style-name:"";  
-text-decoration:line-through;  
-color:red;  
-}  
-@page{mso-page-border-surround-header:no;  
-	mso-page-border-surround-footer:no;}@page Section0{  
-margin-top:70.8500pt;  
-margin-bottom:56.7000pt;  
-margin-left:70.8500pt;  
-margin-right:56.7000pt;  
-size:595.3000pt 841.9000pt;  
-layout-grid:15.6000pt;  
-}  
-div.Section0{page:Section0;}
-
-**Blockly个人课程报告**
+ **Blockly个人课程报告**
 
 
 
-以计算机为技术为先驱的科技革命深刻的影响着人们的生产生活方式以及思维方式，推动着人类社会的蓬勃发展。随着智能时代的到来，我们自己也应掌握一些普遍的编程技能。
+<center>以计算机为技术为先驱的科技革命深刻的影响着人们的生产生活方式以及思维方式，推动着人类社会的蓬勃发展。随着智能时代的到来，我们自己也应掌握一些普遍的编程技能。
 
 普通编程需要具备一定的C语言基础，但随着技术的不断发展，编程过程和编程方法也变得简单有效.Blockly的使用并不需要考虑繁杂的代码和语言规则等，因此即使是向我们这种从来没有接触过编程的人也可以较轻松地学懂运用逻辑拼接来实现简单的编程工作。
 
